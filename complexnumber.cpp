@@ -39,4 +39,5 @@ ComplexNumber ComplexNumber::operator/(const ComplexNumber& other_) const {
 
 std::ostream& operator<<(std::ostream& stream_, const ComplexNumber& complexNumber_) {
     stream_ << "{" << complexNumber_.real() << "; " << complexNumber_.imaginary() << "}" << std::endl;
+    return stream_;
 }
